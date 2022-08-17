@@ -1,6 +1,7 @@
 "use strict";
 
 const express = require("express");
+const port = 3000 
 var productController = require('./controllers/productController'); // set productController to the productController class
 var userController = require('./controllers/userController'); // set userController to the userController class
 var commentController = require('./controllers/commentController'); // set commentController to the commentController class
