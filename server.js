@@ -41,9 +41,9 @@ app.get("/" + startPage, gotoIndex);
 
 app.route("/");
 
-var server = app.listen(port, host, function() {
-    var host = server.address().address;
-    var port = server.address().port;
-
+//var server = app.listen(port, host, function() {
+    //var host = server.address().address;
+    //var port = server.address().port;
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
     console.log("Example app listening at http://%s:%s", host, port);
-});
+//});
