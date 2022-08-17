@@ -9,8 +9,8 @@ var categoryController = require('./controllers/categoryController');
 
 const bodyParser = require("body-parser");
 var app = express();
-var host = "127.0.0.1";
-var port = 8080;
+//var host = "127.0.0.1";
+//var port = 8080;
 var startPage = "index.html";
 
 app.use(express.static("./public"));
